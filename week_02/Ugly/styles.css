@@ -2,11 +2,30 @@
 body {
     font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow';
     background-color:#f4f4f4;
+    background-image:url(background.jpg.jpg);
     margin: 0;
     padding: 0;
 }
+/*h2 is center and an rgb color*/
 h2 {
-    color:limegreen;
+    color:rgb(12, 112, 12);
     text-align: center;
     margin-top: 20px;
+}
+.center{
+    text-align: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color:blueviolet
+}
+/*h3 is to the left and blue*/
+h3 {
+    color: deepskyblue;
+    text-align: left;
+    margin-top: 20px;
+}
+blockquote {
+    background-color: rgba(rgb(160, 20, 20), rgba(62, 75, 62, 0.932), rgb(19, 19, 73), .5);
 }
