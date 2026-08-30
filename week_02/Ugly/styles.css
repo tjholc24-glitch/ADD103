@@ -1,0 +1,12 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color:#f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color:limegreen;
+    text-align: center;
+    margin-top: 20px;
+}
