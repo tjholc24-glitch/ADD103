@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    color:cyan;
+}
+
+summary{
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.container{
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid blue;
+}
+
+p a{
+    margin-left: 50px;
+    color:cyan;
+    font-weight: bold;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+    color:aquamarine;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: dodgerblue;
+}
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.img-center{
+    width: 40%;
+    height:auto;
+    display:block;
+    margin: 20px auto;
+}
+
+.gallery-pics{
+    max-width: 350px;
+    margin: 30px;
+    display: block;
+    border-radius: 6px;
+}
