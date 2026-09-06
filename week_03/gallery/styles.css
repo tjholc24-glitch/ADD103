@@ -21,3 +21,13 @@ h1, h2, h3 {
     display: block;
     border-radius: 6px;
 }
+summary {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: larger;
+}
+footer{
+    text-align: center;
+    margin-top: 40 px;
+    color:aquamarine;
+}
