@@ -1,0 +1,56 @@
+:root{
+    --primary-color: #040730;
+    --card-bg: #8d8bf3;
+    --card-radius: 8px;
+}
+
+.column-card{
+    display: inline-block;
+    width: 48%;
+    border: 1px solid var(--primary-color);
+    background-color: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: 20px;
+    margin: 1%;
+}
+
+.column-card h2{
+    color: var(--primary-color);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed var(--primary-color);
+    cursor: help;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 180px;
+    background-color: #2e00fa;
+    color: var(--primary-color);
+    text-align: center;
+    border-radius: var(--card-radius);
+    padding: 8px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(4,7,48,0.35);
+    text-align: center;
+}
