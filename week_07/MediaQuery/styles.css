@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    border: 1px solid darkblue;
+    border-radius: 8px; 
+    padding: 20px;   
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.jobtitle{
+    font-weight: bold;
+    color:dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue
+}
+
+.body{
+    background-color: black;
+}
+
+@media (min-width: 700px) {
+    .card {
+        flex-direction: row;
+        text-align: left;
+        border: 1px solid darkblue;
+        border-radius: 8px;
+        padding: 20px;
+        }
+}
