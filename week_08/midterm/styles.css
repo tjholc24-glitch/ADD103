@@ -24,6 +24,10 @@ body{
 .left-container ul{
     color: #0a2540;
     padding-left: 20px;
+    font-weight: bold;
+}
+.left-container li{
+    margin-bottom: 30px;
 }
 
 .right-container{
@@ -73,7 +77,8 @@ body{
 
 .all-containers{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 
 .footer{
@@ -87,17 +92,17 @@ h1{
     font-weight: bold;
 }
 
-@media (min-width: 700px){
+@media (max-width: 700px){
     .all-containers{
         flex-direction: column;
     }
     .left-container{
         width: 100%;
-        margin: 10px;
+        
     }
     .right-container{
         width: 100%;
-        margin: 10px;
+        
     }
     .button-grid{
         grid-template-columns: 1fr;
