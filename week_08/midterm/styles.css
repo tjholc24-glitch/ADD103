@@ -86,3 +86,20 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
+@media (min-width: 700px){
+    .all-containers{
+        flex-direction: column;
+    }
+    .left-container{
+        width: 100%;
+        margin: 10px;
+    }
+    .right-container{
+        width: 100%;
+        margin: 10px;
+    }
+    .button-grid{
+        grid-template-columns: 1fr;
+    }
+}
