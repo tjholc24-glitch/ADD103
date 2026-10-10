@@ -79,6 +79,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-top: 28px;
 }
 
 .footer{
@@ -86,10 +87,17 @@ body{
     color:#0a2540
 }
 
+.header{
+    border-bottom: 2px solid #0a2540;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
 h1{
     color: #0a2540;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 28px;
 }
 
 @media (max-width: 700px){
@@ -107,4 +115,83 @@ h1{
     .button-grid{
         grid-template-columns: 1fr;
     }
+    .pricing-container{
+        grid-template-columns: 1fr;
+    }
+    .roster-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:32px;
+    max-width: 1200px;
+    margin: 48px;
+    background-color: #eef6fc;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ticket-tiers{
+    background: #ffffff;
+    border: 2px solid #0a2540;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-tiers h3{
+    font-size: 22px;
+    color: #0a2540;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 40px;
+    color: #0a2540;
+    font-weight: 800;
+}
+
+.feature-list{
+    color: #0a2540;
+}
+
+.feature-list li{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.roster-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin: 48px;
+    background-color: #eef6fc;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player-card{
+    background: #ffffff;
+    border: 2px solid #0a2540;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-card h3{
+    font-size: 20px;
+    color: #0a2540;
+    font-weight: 700;
+    border-bottom: 1px solid #0a2540;
+    padding-bottom: 8px;
+}
+
+.player-detail{
+    color: #0a2540;
+    font-size: 15px;
 }
