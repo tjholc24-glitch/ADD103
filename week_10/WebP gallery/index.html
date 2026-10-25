@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebP Photos</title>
+</head>
+<body>
+    <h1>Wildlife Safari Gallery</h1>
+    
+    <div>
+        <h2>Lion Showcase</h2>
+        <img src="../images/hero-medium.jpg" 
+             srcset="../images/hero-small.jpg 480w,
+                  ../images/hero-medium.jpg 800w,
+                  ../images/hero-large.jpg 1200w" 
+            sizes="(max-width: 600px) 480px,
+                 (max-width: 900px) 800px,
+                 1200px" 
+                 alt="Lion staring into the camera">
+    </div>
+    
+    <div>
+        <h2>Lions Gaze</h2>
+        <picture>
+            <source media="(max-width: 767px)" srcset="../images/hero-mobile-crop.webp" type="image/webp">
+            <source media="(max-width: 767px)" srcset="../images/hero-mobile-crop.jpg">
+            <source media="(min-width: 768px)" srcset="../images/hero-desktop.jpg">
+            <img src="../images/hero-large.jpg" alt="A tight close-up of a lion's face and eyes">
+        </picture>
+    </div>
+    
+    <footer>
+        <p><a href="../../index.html">Home</a></p>
+    </footer>
+
+    
+</body>
+</html>
