@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom and Javascript</title>
+</head>
+<body>
+    <p id="textElement">Click this text to change it!</p>
+    
+    <button id="toggleButton">Dark Mode</button>
+    
+    <script>
+        document.getElementById("textElement").addEventListener("click", function () {
+            document.getElementById("textElement").textContent = "The text has been changed!";
+        });
+
+        document.getElementById("toggleButton").addEventListener("click", function () {
+            if (document.body.style.backgroundColor === "black") {
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("toggleButton").textContent = "Dark Mode";
+            } else {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                document.getElementById("toggleButton").textContent = "Light Mode";
+            }
+        });
+    </script>
+   
+   <footer>
+        <p><a href="../../index.html">Home</a></p>
+    </footer>
+
+    
+</body>
+</html>
