@@ -12,6 +12,8 @@ summary{
     color: cornflowerblue;
     font-weight: bold;
     font-size: larger;
+    padding: 10px 0;
+    margin-bottom: 8px;
 }
 
 .container{
